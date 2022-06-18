@@ -14,7 +14,7 @@
 		6AF8D945285C54C100285BC2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6AF8D944285C54C100285BC2 /* Assets.xcassets */; };
 		6AF8D948285C54C100285BC2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6AF8D946285C54C100285BC2 /* LaunchScreen.storyboard */; };
 		6AF8D951285C5B1100285BC2 /* ViewTest.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6AF8D950285C5B1100285BC2 /* ViewTest.storyboard */; };
-		6AF8D957285C5D2E00285BC2 /* MainTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AF8D956285C5D2E00285BC2 /* MainTabBarController.swift */; };
+		6AF8D957285C5D2E00285BC2 /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AF8D956285C5D2E00285BC2 /* TabBarController.swift */; };
 		6AF8D959285C5D9100285BC2 /* ReservationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AF8D958285C5D9100285BC2 /* ReservationViewController.swift */; };
 		6AF8D95B285C5DB100285BC2 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AF8D95A285C5DB100285BC2 /* ProfileViewController.swift */; };
 /* End PBXBuildFile section */
@@ -30,7 +30,7 @@
 		6AF8D947285C54C100285BC2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6AF8D949285C54C100285BC2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6AF8D950285C5B1100285BC2 /* ViewTest.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = ViewTest.storyboard; sourceTree = "<group>"; };
-		6AF8D956285C5D2E00285BC2 /* MainTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabBarController.swift; sourceTree = "<group>"; };
+		6AF8D956285C5D2E00285BC2 /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
 		6AF8D958285C5D9100285BC2 /* ReservationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReservationViewController.swift; sourceTree = "<group>"; };
 		6AF8D95A285C5DB100285BC2 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 		FEFD73EB4F1ED78E123827CA /* Pods_GoodPeople.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GoodPeople.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -108,7 +108,7 @@
 		6AF8D953285C5CAB00285BC2 /* Main */ = {
 			isa = PBXGroup;
 			children = (
-				6AF8D956285C5D2E00285BC2 /* MainTabBarController.swift */,
+				6AF8D956285C5D2E00285BC2 /* TabBarController.swift */,
 				6AF8D958285C5D9100285BC2 /* ReservationViewController.swift */,
 				6AF8D95A285C5DB100285BC2 /* ProfileViewController.swift */,
 			);
@@ -243,7 +243,7 @@
 				6AF8D959285C5D9100285BC2 /* ReservationViewController.swift in Sources */,
 				6AF8D940285C54BC00285BC2 /* LoginViewController.swift in Sources */,
 				6AF8D93C285C54BC00285BC2 /* AppDelegate.swift in Sources */,
-				6AF8D957285C5D2E00285BC2 /* MainTabBarController.swift in Sources */,
+				6AF8D957285C5D2E00285BC2 /* TabBarController.swift in Sources */,
 				6AF8D93E285C54BC00285BC2 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
