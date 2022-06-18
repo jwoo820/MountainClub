@@ -1,5 +1,5 @@
 //
-//  MainTabBarController.swift
+//  TabBarController.swift
 //  GoodPeople
 //
 //  Created by Park Jungwoo on 2022/06/17.
@@ -7,7 +7,10 @@
 
 import UIKit
 
-class MainTabBarController: UITabBarController {
+class TabBarController: UITabBarController {
+    
+    var userId: Int!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
@@ -24,5 +27,7 @@ class MainTabBarController: UITabBarController {
             image: UIImage(systemName: "person"),
             selectedImage: UIImage(systemName: "person.fill")
         )
+        viewControllers = [reservationViewController, profileViewController]
+        tabBar.backgroundColor = .systemBackground
     }
 }

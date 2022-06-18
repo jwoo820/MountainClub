@@ -40,10 +40,67 @@
             </objects>
             <point key="canvasLocation" x="813" y="-1040"/>
         </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="fcX-0Y-NAH">
+            <objects>
+                <navigationController id="19J-qz-MIs" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="ud1-B2-eCs">
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="vbe-vA-j06" kind="relationship" relationship="rootViewController" id="WVP-p7-KSn"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="m8O-7i-KUb" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1607" y="-737"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="cy5-Yj-ml8">
+            <objects>
+                <viewController id="vbe-vA-j06" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="2qO-Mq-u4C">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zVr-xz-g57">
+                                <rect key="frame" x="6" y="145" width="402" height="31"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="gray" title="Button"/>
+                                <connections>
+                                    <segue destination="TmC-9B-OsQ" kind="push" id="7WN-L2-L6Y"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="로그인" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bf5-BC-HH0">
+                                <rect key="frame" x="5" y="118" width="404" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="OCx-yy-0q4"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="bf5-BC-HH0" firstAttribute="top" secondItem="OCx-yy-0q4" secondAttribute="top" constant="30" id="CL4-5N-xCl"/>
+                            <constraint firstItem="bf5-BC-HH0" firstAttribute="leading" secondItem="OCx-yy-0q4" secondAttribute="leading" constant="5" id="Fe6-z0-xTR"/>
+                            <constraint firstItem="OCx-yy-0q4" firstAttribute="trailing" secondItem="bf5-BC-HH0" secondAttribute="trailing" constant="5" id="MHV-5V-981"/>
+                            <constraint firstItem="zVr-xz-g57" firstAttribute="leading" secondItem="OCx-yy-0q4" secondAttribute="leading" constant="6" id="ds1-5R-KCn"/>
+                            <constraint firstItem="zVr-xz-g57" firstAttribute="top" secondItem="bf5-BC-HH0" secondAttribute="bottom" constant="6" id="hQ7-Wi-xRj"/>
+                            <constraint firstItem="OCx-yy-0q4" firstAttribute="trailing" secondItem="zVr-xz-g57" secondAttribute="trailing" constant="6" id="v2a-jL-LHv"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="Xoq-9a-jQD"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="nch-OM-A0P" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-842.02898550724649" y="-737.27678571428567"/>
+        </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="5I8-5v-aXJ">
             <objects>
                 <tabBarController id="TmC-9B-OsQ" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="LlE-tW-jiU"/>
                     <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="wrY-VR-9R5">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="49"/>
                         <autoresizingMask key="autoresizingMask"/>

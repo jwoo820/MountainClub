@@ -7,10 +7,11 @@
 
 import UIKit
 
-class ReservationViewController: UINavigationController {
+class ReservationViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
         title = "예약"
+        view.backgroundColor = .green
     }
 }
